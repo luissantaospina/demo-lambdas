@@ -1,0 +1,1 @@
+doc: https://aws-samples.github.io/sample-aws-lambda-managed-instances/

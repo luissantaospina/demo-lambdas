@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58b70aac-d8fc-4e8b-8b6e-717401dd3b40" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/luis.santa/Documents/demo-lambdas" value="3LutvgwKtMddbcbcmOjr8obxPLS" />
+      <entry key="_/Users/luis.santa/Downloads/demo" value="3LqAlcL5sAEhbtny3LAIpr5RqcS" />
+    </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000000768" />
+      <entry key="S5" value="1.000006701264466" />
+      <entry key="S10" value="1.0038148526547161" />
+      <entry key="S30" value="1.312465611878761" />
+      <entry key="S60" value="1.986644064401027" />
+      <entry key="M2" value="3.5139510938657854" />
+      <entry key="M5" value="12.11524946944747" />
+      <entry key="M10" value="27.075551300144188" />
+      <entry key="M15" value="38.05830586344224" />
+      <entry key="M30" value="55.91794413702547" />
+      <entry key="H1" value="69.08679939947842" />
+      <entry key="H2" value="77.34017000289158" />
+      <entry key="H4" value="83.42203520926287" />
+      <entry key="D1" value="108.7870730632359" />
+      <entry key="W1" value="122.96440604191291" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.1427530856324373E-271" />
+      <entry key="MS500" value="6.480230897611047E-55" />
+      <entry key="S2" value="2.8372501009169777E-14" />
+      <entry key="S5" value="3.812054035150349E-6" />
+      <entry key="S10" value="0.0019524482157411622" />
+      <entry key="S30" value="0.12499600569724116" />
+      <entry key="S60" value="0.35913892994834495" />
+      <entry key="M2" value="0.7310392401711983" />
+      <entry key="M5" value="2.107088166682896" />
+      <entry key="M10" value="4.55923376053272" />
+      <entry key="M15" value="6.445570131401392" />
+      <entry key="M30" value="9.58668554101425" />
+      <entry key="H1" value="11.917398230334141" />
+      <entry key="H2" value="13.352726369272906" />
+      <entry key="H4" value="14.222824639134412" />
+      <entry key="D1" value="16.016346306145685" />
+      <entry key="W1" value="16.82989384933137" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.06381325785669958" />
+      <entry key="MS500" value="0.5767428025300112" />
+      <entry key="S2" value="0.8714561635030269" />
+      <entry key="S5" value="0.9464605247757968" />
+      <entry key="S10" value="0.9782943866440316" />
+      <entry key="S30" value="1.4205337800462505" />
+      <entry key="S60" value="2.329717755635409" />
+      <entry key="M2" value="4.231637996909466" />
+      <entry key="M5" value="14.210745982372911" />
+      <entry key="M10" value="31.623374824557608" />
+      <entry key="M15" value="44.49322774115898" />
+      <entry key="M30" value="65.49666473602115" />
+      <entry key="H1" value="80.99920381094924" />
+      <entry key="H2" value="90.69008102069265" />
+      <entry key="H4" value="97.64333269376316" />
+      <entry key="D1" value="124.8030760332306" />
+      <entry key="W1" value="139.7942436535731" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LqAlcR7itOYy2Dq10xoaVaZtg5" />
+  <component name="ProjectSessionTemplates">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_mutation.test_comparar.executor": "Run",
+    "Python tests.Python tests for test_mutation.test_suma.executor": "Run",
+    "Python tests.Python tests for tests.test_mutation.test_comparar.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.google.cloudcode.ide_session_index": "20261110_0002",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/luis.santa/Documents/demo-lambdas",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_mutation.test_comparar">
+    <configuration name="Python tests for tests.test_mutation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="demo-lambdas" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_mutation&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_mutation.test_comparar" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="demo-lambdas" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_mutation.test_comparar&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for tests.test_mutation.test_comparar" />
+        <item itemvalue="Python tests.Python tests for tests.test_mutation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.9437.214" />
+        <option value="bundled-python-sdk-821f704e66d9-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.9437.214" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58b70aac-d8fc-4e8b-8b6e-717401dd3b40" name="Changes" comment="" />
+      <created>1794171375585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794171375585</updated>
+      <workItem from="1794171376586" duration="6410000" />
+      <workItem from="1794316013783" duration="728000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo$.coverage" NAME=" Coverage Results" MODIFIED="1794238490733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

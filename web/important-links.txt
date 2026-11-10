@@ -1,0 +1,2 @@
+doc: https://docs.aws.amazon.com/es_es/lambda/latest/dg/web-functions.html
+doc: https://docs.aws.amazon.com/es_es/lambda/latest/dg/web-functions-how-it-works.html

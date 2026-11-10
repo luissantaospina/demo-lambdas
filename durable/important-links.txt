@@ -1,0 +1,4 @@
+doc: https://docs.aws.amazon.com/es_es/lambda/latest/dg/durable-functions.html
+doc: https://docs.aws.amazon.com/es_es/lambda/latest/dg/durable-step-functions.html
+build: https://aws.amazon.com/es/blogs/aws/build-multi-step-applications-and-ai-workflows-with-aws-lambda-durable-functions/
+sdk: https://github.com/aws/aws-durable-execution-sdk-python

@@ -1,0 +1,4 @@
+doc: https://docs.aws.amazon.com/es_es/lambda/latest/dg/lambda-microvms-guide.html
+doc: https://docs.aws.amazon.com/es_es/lambda/latest/dg/microvms-how-it-works.html
+started: https://docs.aws.amazon.com/es_es/lambda/latest/dg/microvms-getting-started.html
+sandbox: https://aws.amazon.com/es/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/
