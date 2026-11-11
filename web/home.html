@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bold - Cuenta Negocios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    body {
+      background-color: #0d1117;
+      color: #ffffff;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    .hero-container {
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: linear-gradient(rgba(10, 15, 25, 0.55), rgba(10, 15, 25, 0.7)),
+                  radial-gradient(circle at 40% 40%, rgba(200, 220, 240, 0.25) 0%, rgba(10, 15, 25, 0.85) 70%),
+                  #1c2536;
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Barra de Navegación */
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 24px 48px;
+      z-index: 10;
+    }
+
+    /* Logo en texto normal */
+    .brand-logo {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -1.5px;
+      color: #ffffff;
+      text-decoration: none;
+      line-height: 1;
+    }
+
+    /* Selector de Segmento Central */
+    .segment-switch {
+      display: flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(8px);
+      padding: 4px;
+      border-radius: 9999px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .segment-btn {
+      padding: 8px 20px;
+      border-radius: 9999px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .segment-btn.active {
+      background-color: #ffffff;
+      color: #111827;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .segment-btn.inactive {
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .segment-btn.inactive:hover {
+      color: #ffffff;
+    }
+
+    .arrow-icon {
+      font-size: 11px;
+    }
+
+    /* Acciones del Navbar (Derecha) */
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .login-link {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: opacity 0.2s;
+    }
+
+    .login-link:hover {
+      opacity: 0.8;
+    }
+
+    .btn-register {
+      background-color: #ff3b53;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 10px 22px;
+      border-radius: 9999px;
+      text-decoration: none;
+      transition: background-color 0.2s ease;
+    }
+
+    .btn-register:hover {
+      background-color: #e62c44;
+    }
+
+    /* Contenido Hero */
+    .hero-content {
+      text-align: center;
+      max-width: 820px;
+      margin: auto auto;
+      padding: 0 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 2;
+    }
+
+    .hero-title {
+      font-size: 46px;
+      font-weight: 700;
+      line-height: 1.15;
+      letter-spacing: -1px;
+      margin-bottom: 18px;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .hero-subtitle {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: rgba(255, 255, 255, 0.85);
+      max-width: 580px;
+      margin-bottom: 32px;
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    .cta-group {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background-color: #ff3b53;
+      color: #ffffff;
+      padding: 12px 28px;
+      border-radius: 9999px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background-color 0.2s;
+    }
+
+    .btn-primary:hover {
+      background-color: #e62c44;
+    }
+
+    .btn-secondary {
+      background-color: #ffffff;
+      color: #1f2937;
+      padding: 12px 28px;
+      border-radius: 9999px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background-color 0.2s;
+    }
+
+    .btn-secondary:hover {
+      background-color: #f3f4f6;
+    }
+
+    /* Widget Flotante */
+    .chat-widget {
+      position: fixed;
+      bottom: 24px;
+      right: 28px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      text-decoration: none;
+      z-index: 50;
+    }
+
+    .widget-bubble {
+      width: 48px;
+      height: 48px;
+      background: #ffffff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+    }
+
+    .widget-bubble svg {
+      width: 24px;
+      height: 24px;
+      fill: #ff3b53;
+    }
+
+    .widget-label {
+      background-color: #ffffff;
+      color: #1f2937;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 10px;
+      border-radius: 9999px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        padding: 16px 20px;
+      }
+      .segment-switch {
+        display: none;
+      }
+      .hero-title {
+        font-size: 32px;
+      }
+      .hero-subtitle {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero-container">
+    <header class="navbar">
+      <a href="#" class="brand-logo">bold</a>
+
+      <nav class="segment-switch">
+        <a href="#" class="segment-btn active">
+          Negocios <span class="arrow-icon">&#9662;</span>
+        </a>
+        <a href="#" class="segment-btn inactive">Personas</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#" class="login-link">Iniciar sesión</a>
+        <a href="#" class="btn-register">Registrarme</a>
+      </div>
+    </header>
+
+    <main class="hero-content">
+      <h1 class="hero-title">
+        Recibe pagos<br>
+        y rentabiliza tu dinero<br>
+        en la Cuenta Negocios
+      </h1>
+      
+      <p class="hero-subtitle">
+        Donde podrás recibir el dinero de tus ventas al instante, sin cuota de manejo, y acceder a crédito más fácil.
+      </p>
+
+      <div class="cta-group">
+        <a href="#" class="btn-primary">Comprar datáfono</a>
+        <a href="#" class="btn-secondary">Ver productos</a>
+      </div>
+    </main>
+
+    <div style="height: 60px;"></div>
+  </div>
+
+  <a href="#" class="chat-widget" aria-label="Hablemos">
+    <div class="widget-bubble">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 2C6.477 2 2 6.477 2 12c0 1.821.487 3.53 1.338 5L2 22l5.247-1.312A9.956 9.956 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/>
+      </svg>
+    </div>
+    <span class="widget-label">Hablemos</span>
+  </a>
+
+</body>
+</html>
